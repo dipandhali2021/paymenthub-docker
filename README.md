@@ -60,7 +60,7 @@ Once the services are running, access them at the following URLs:
 2. Log in with the default credentials (`wbadmin` / `wbadmin`).
 3. Go to Design → MySpace → Import Project.
 4. In the repository URL field, enter:
-`https://github.com/dipandhali2021/user-management.git`
+`https://github.com/dipandhali2021/user-management-v0.git`
 5. Select PaymentHubEE and click OK.
 6. Click Deploy to complete the setup.
 
