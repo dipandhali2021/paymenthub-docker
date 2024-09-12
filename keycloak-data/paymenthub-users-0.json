@@ -1,0 +1,1236 @@
+{
+  "realm" : "paymenthub",
+  "users" : [ {
+    "id" : "42ce3499-7c46-4cc7-a352-96c4b7e3b93f",
+    "createdTimestamp" : 1720544204357,
+    "username" : "alan@123",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Alan",
+    "lastName" : "Walker",
+    "email" : "alan@walker.com",
+    "attributes" : {
+      "mobileNo" : [ "1324214555" ],
+      "userType" : [ "Govt. Entity User" ],
+      "roles" : [ "Normal User", "Admin Maker", "Admin Checker" ],
+      "govtId" : [ "GOV001" ],
+      "status" : [ "Inactive" ]
+    },
+    "credentials" : [ {
+      "id" : "8f928e36-a5a6-4a53-8084-433995258ee8",
+      "type" : "password",
+      "createdDate" : 1720544241718,
+      "secretData" : "{\"value\":\"JH9K6lObbDKX8VzK1kJWnbhZLnFT/ub0ZZfEDgTuzQk=\",\"salt\":\"jRjyehYF4VCCNQjTEWsYpw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Normal User", "Admin Maker", "Admin Checker" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "4bf563f7-1db7-404f-87eb-63ebb7ee6e16",
+    "createdTimestamp" : 1721406927835,
+    "username" : "alice",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Alice",
+    "lastName" : "jones",
+    "email" : "alice@mifos",
+    "attributes" : {
+      "mobileNo" : [ "3421553255" ],
+      "userType" : [ "PayEE User" ],
+      "roles" : [ "Normal User" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "4f43959e-f731-4538-9b13-64366bff18bd",
+      "type" : "password",
+      "createdDate" : 1721892850297,
+      "secretData" : "{\"value\":\"7Lge4tAyHMYaME/JytLRoRleabb7K41+EUMAR142YnA=\",\"salt\":\"arczcZiurQcVqPy3Qvhn8Q==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Normal User" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "4518d81f-5407-4072-9584-d05e8ee87298",
+    "createdTimestamp" : 1721996614541,
+    "username" : "asgasg",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "deep",
+    "lastName" : "asgg",
+    "email" : "asgsag@gas",
+    "attributes" : {
+      "mobileNo" : [ "1242142424" ],
+      "userType" : [ "PayEE User" ],
+      "roles" : [ "Normal User" ],
+      "status" : [ "Inactive" ]
+    },
+    "credentials" : [ {
+      "id" : "af79508e-3238-4022-9e4f-0295af9fcf2e",
+      "type" : "password",
+      "createdDate" : 1722255122061,
+      "secretData" : "{\"value\":\"iJymcXqxVMsQOHhp/xkXKseE+J0RvKcCFuF2jOyjEfQ=\",\"salt\":\"WQZQLSF+9vk9LwPh7l4jkA==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Normal User" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "f36bcee2-4d57-40fb-a118-f745ed27fa7b",
+    "createdTimestamp" : 1720080885729,
+    "username" : "charlie_brown",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Charloon",
+    "lastName" : "Brown",
+    "email" : "charlie.b@example.com",
+    "attributes" : {
+      "userType" : [ "FSP User" ],
+      "mobileNo" : [ "7" ],
+      "fspId" : [ "FSP456" ],
+      "roles" : [ "Normal User" ],
+      "govtId" : [ "FSP456" ],
+      "status" : [ "INACTIVE" ]
+    },
+    "credentials" : [ {
+      "id" : "74fb4001-051d-47cc-b0d7-fc3ed9ce48c8",
+      "type" : "password",
+      "createdDate" : 1720543623546,
+      "secretData" : "{\"value\":\"hJ5xUBUybeO3M/itHYFxt3bJ5zq9a66E5Vdi6b7FwiY=\",\"salt\":\"54mjv7JmRLnpXTqd32zu2Q==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Normal User" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "6ea3f67c-baf4-4684-886d-e04e7182fdc0",
+    "createdTimestamp" : 1718467305275,
+    "username" : "dipan",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Dipan",
+    "lastName" : "Dhali",
+    "email" : "dipan@mifos.in",
+    "attributes" : {
+      "welcomeEmailSent" : [ "true" ],
+      "mobileNo" : [ "2141242143" ],
+      "userType" : [ "Govt. Entity User" ],
+      "roles" : [ "Normal User", "Admin Maker", "Admin Checker" ],
+      "govtId" : [ "GOV001" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "c9bdd8d0-1408-47dc-ba11-ac291b50f3b0",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1718867162056,
+      "secretData" : "{\"value\":\"4TOZ8gBseW4FObGPgnu8IzdwCk3lhyaQKAgVcqwnOao=\",\"salt\":\"GsXbsQUZjwvyG2WUyTzgbw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Normal User", "Admin Maker", "Admin Checker" ]
+    },
+    "notBefore" : 1719123997,
+    "groups" : [ ]
+  }, {
+    "id" : "cba1496f-4919-438a-9f55-d0500a9bdbc7",
+    "createdTimestamp" : 1720080909294,
+    "username" : "ethan_taylor",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Ethan",
+    "lastName" : "Taylor",
+    "email" : "ethan.t@example.com",
+    "attributes" : {
+      "mobileNo" : [ "5432109876" ],
+      "userType" : [ "Govt. Entity User" ],
+      "govtId" : [ "GOV012" ],
+      "roles" : [ "Admin Checker" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "d7cc2c49-ed57-49ea-9e5a-034929c53918",
+      "type" : "password",
+      "createdDate" : 1720080909378,
+      "secretData" : "{\"value\":\"yKDorTO/Qt1vD2RGh7Gdi1b/2E4yWMvPyBRWVk6TDJ8=\",\"salt\":\"zMa2nhU4cygK4VRIy7EZTQ==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Admin Checker" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "a4593b81-ebdb-459a-a008-a27173750ec6",
+    "createdTimestamp" : 1720080924580,
+    "username" : "fiona_anderson",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Fiona",
+    "lastName" : "Anderson",
+    "email" : "fiona.a@example.com",
+    "attributes" : {
+      "mobileNo" : [ "4321098765" ],
+      "userType" : [ "FSP User" ],
+      "fspId" : [ "FSP890" ],
+      "roles" : [ "Normal User" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "965f9901-efcb-43e8-8804-0f001c6dbcb2",
+      "type" : "password",
+      "createdDate" : 1720080924675,
+      "secretData" : "{\"value\":\"L7dVs/C4qzmZO/VT0Lw9c2VRDVK+zxkYn6ZJuNkYQ/0=\",\"salt\":\"EoQhBRceg6FFL4b3H6r1DA==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Normal User" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "62cd8a49-6bc0-4701-ab0b-828b01f24edf",
+    "createdTimestamp" : 1720871475163,
+    "username" : "foloow",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Frena",
+    "lastName" : "jones",
+    "email" : "follow@jones",
+    "attributes" : {
+      "mobileNo" : [ "1321321412" ],
+      "userType" : [ "PayEE User" ],
+      "roles" : [ "Normal User" ],
+      "status" : [ "Inactive" ]
+    },
+    "credentials" : [ {
+      "id" : "837b5fb2-7258-4dc1-9ecf-535dfa907fad",
+      "type" : "password",
+      "createdDate" : 1721327986590,
+      "secretData" : "{\"value\":\"cWMd+jXs560/wCXJthU/oVG/u/UKQcoRHJuvLkjf3pg=\",\"salt\":\"h8HOL+WAh75QfIprU6rGmw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Normal User" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "b051f13d-455b-477c-8eea-5a5722f4c529",
+    "createdTimestamp" : 1721993412900,
+    "username" : "foolkon",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "fool",
+    "lastName" : "kon",
+    "email" : "fool@kon",
+    "attributes" : {
+      "mobileNo" : [ "2341234566" ],
+      "userType" : [ "PayEE User" ],
+      "roles" : [ "Normal User" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "74139320-d068-4a74-b7d9-7212fd2d52e5",
+      "type" : "password",
+      "createdDate" : 1721993413067,
+      "secretData" : "{\"value\":\"WwzU9vNHL4ev1v7Iz66uOzNMvxSrYbXS+fd0z7rbVe8=\",\"salt\":\"W4woFy3AVCdU5yEIulgfiw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Normal User" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "18ecb9d8-31ca-4299-b80e-43c162ac7eab",
+    "createdTimestamp" : 1720080930496,
+    "username" : "george_martin",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "George",
+    "lastName" : "Martin",
+    "email" : "george.m@example.com",
+    "attributes" : {
+      "mobileNo" : [ "3210987654" ],
+      "userType" : [ "PayEE User" ],
+      "roles" : [ "Admin Maker" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "6c9acedb-d4de-4b98-8444-0a99dafc8df2",
+      "type" : "password",
+      "createdDate" : 1720080930589,
+      "secretData" : "{\"value\":\"PWcLgm5yhsI/lcZqZYfGZRm33V2pxWpev9+VCwGKn0w=\",\"salt\":\"pUCFvuqz8uDhufQJHhW5dA==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Admin Maker" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "a7008178-eeb7-420f-844a-392732204506",
+    "createdTimestamp" : 1720080967520,
+    "username" : "ian_rodriguez",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Ian",
+    "lastName" : "Rodriguez",
+    "email" : "ian.r@example.com",
+    "attributes" : {
+      "mobileNo" : [ "1098765432" ],
+      "userType" : [ "FSP User" ],
+      "roles" : [ "Normal User" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "63373ca8-d2a0-4f83-9f9a-3dbd45a8cd16",
+      "type" : "password",
+      "createdDate" : 1720080967591,
+      "secretData" : "{\"value\":\"YTOZGS0mvtP/4LCf792uM44VmYdBjZEwWyMUYJ+ktV4=\",\"salt\":\"z/EXgZQeBJyG/KvG9K96Ug==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Normal User" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "2b7e0450-255c-4492-85c0-8e416b908532",
+    "createdTimestamp" : 1721382593137,
+    "username" : "jane",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Jane",
+    "lastName" : "Smith",
+    "email" : "jane@mifos.org",
+    "attributes" : {
+      "mobileNo" : [ "9392592355" ],
+      "userType" : [ "FSP User" ],
+      "fspId" : [ "FSP1" ],
+      "roles" : [ "Admin Checker" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "ef160e14-f83c-4a04-9dfc-06c6013c5f5a",
+      "type" : "password",
+      "createdDate" : 1721382593168,
+      "secretData" : "{\"value\":\"sHM+vEW52HJb6Bz0RtsZ4dks8OgupE0uGsZBjIPGqZI=\",\"salt\":\"curITw8r2PyNQBGNxjMTvg==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Admin Checker" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "b68f84d4-9603-43b0-b4c7-28ca2c58e4d0",
+    "createdTimestamp" : 1721382395701,
+    "username" : "john",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "John",
+    "lastName" : "Doe",
+    "email" : "john@mifos.org",
+    "attributes" : {
+      "mobileNo" : [ "3424325555" ],
+      "userType" : [ "Govt. Entity User" ],
+      "govtId" : [ "GOVT2" ],
+      "roles" : [ "Admin Maker" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "a8f83adc-3843-4d33-b94c-a63b8eb66af8",
+      "type" : "password",
+      "createdDate" : 1721382395742,
+      "secretData" : "{\"value\":\"oDm2VDxe9U17NpioTBESjIV93VazkI6eL6OFI5e+HZI=\",\"salt\":\"yyoSCSwR3kPDuFAuZf6yTQ==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Admin Maker" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "5100e836-9ccb-492c-b430-8848142b8232",
+    "createdTimestamp" : 1720080979921,
+    "username" : "julia_lewis",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Julia",
+    "lastName" : "Lewis",
+    "email" : "julia.l@example.com",
+    "attributes" : {
+      "mobileNo" : [ "9876543210" ],
+      "userType" : [ "PayEE User" ],
+      "roles" : [ "Admin Maker" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "8072cb8e-7e19-4b4d-ac4b-7d016dc97124",
+      "type" : "password",
+      "createdDate" : 1720080979993,
+      "secretData" : "{\"value\":\"mUttObIANrQFXIhJmMghYFKpDXe2qKId/5BMqZf6uO8=\",\"salt\":\"wwynwo3xI24B39BY+KIXjQ==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Admin Maker" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "51983b88-e9c3-4a14-8704-135d43c4f542",
+    "createdTimestamp" : 1720080997797,
+    "username" : "kevin_lee",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Kevin",
+    "lastName" : "Lee",
+    "email" : "kevin.l@example.com",
+    "attributes" : {
+      "mobileNo" : [ "8765432109" ],
+      "userType" : [ "Govt. Entity User" ],
+      "govtId" : [ "GOV901" ],
+      "roles" : [ "Admin Checker" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "604d628e-f597-41a5-932b-589745a110a1",
+      "type" : "password",
+      "createdDate" : 1720080997865,
+      "secretData" : "{\"value\":\"QO8ZTkeK/siXeeIXSh614vUMHofk+fA3PptgILPQjCQ=\",\"salt\":\"Y0rW2KN2Mxx8nogGr8eifw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Admin Checker" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "3bd5f5e7-024c-43b0-96df-20df6ef03b72",
+    "createdTimestamp" : 1721892758080,
+    "username" : "kong",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Kong",
+    "lastName" : "King",
+    "email" : "kong@king",
+    "attributes" : {
+      "mobileNo" : [ "2104891284" ],
+      "userType" : [ "Govt. Entity User" ],
+      "govtId" : [ "GOVT1" ],
+      "roles" : [ "Normal User" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "e618c8cf-5069-42e2-9b2d-dee574505c06",
+      "type" : "password",
+      "createdDate" : 1721892758165,
+      "secretData" : "{\"value\":\"e8LtlZMmEFbFgnkXMmfzk2VW9PWyyw776fuKLDSIDuY=\",\"salt\":\"zb3xCn4vJ/9K9IsIcWTtyw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Normal User" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "28892c8f-0918-4665-9558-f5b59db8a083",
+    "createdTimestamp" : 1721325022069,
+    "username" : "krush@123",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Krush",
+    "lastName" : "Nath",
+    "email" : "krush@123",
+    "attributes" : {
+      "mobileNo" : [ "3423523535" ],
+      "userType" : [ "Govt. Entity User" ],
+      "govtId" : [ "GOVT1" ],
+      "roles" : [ "Admin Maker", "Admin Checker" ],
+      "status" : [ "Active", "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "e41df925-4d8f-499c-9f52-e5adeab19a87",
+      "type" : "password",
+      "createdDate" : 1721325022274,
+      "secretData" : "{\"value\":\"kLxuV+MCGXNNlf6qQ6oziRmLz1eGXR6EIH+NtJk+Xi0=\",\"salt\":\"2INYmMeIQu7IAY4aIVqM6A==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Admin Maker", "Admin Checker" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "e6718109-2f73-4906-8f61-c80383f93809",
+    "createdTimestamp" : 1720665221105,
+    "username" : "kumar@123",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "kumar",
+    "lastName" : "sone",
+    "email" : "kumar@gmail.com",
+    "attributes" : {
+      "mobileNo" : [ "9977239723" ],
+      "userType" : [ "PayEE User" ],
+      "roles" : [ "Admin Maker" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "570910bf-a2c6-40c5-b3fa-a5c64bfcc369",
+      "type" : "password",
+      "createdDate" : 1720665221177,
+      "secretData" : "{\"value\":\"zL0VRoFiKNsp25W7mJ62a6oUVAZm9TlmZHGdlGMjtT4=\",\"salt\":\"dmkL/muYHsWIjtx58h4KmQ==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Admin Maker" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "3050b05c-d4e9-41bf-a14e-02d4b5b2df90",
+    "createdTimestamp" : 1720081008734,
+    "username" : "laura_walker",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Lauraine",
+    "lastName" : "Walker",
+    "email" : "laura.w@example.com",
+    "attributes" : {
+      "mobileNo" : [ "7654321098" ],
+      "userType" : [ "FSP User" ],
+      "fspId" : [ "FSP234" ],
+      "roles" : [ "Normal User" ],
+      "status" : [ "Inactive" ]
+    },
+    "credentials" : [ {
+      "id" : "7f8566fb-6a44-4d70-ac11-93efcd350c03",
+      "type" : "password",
+      "createdDate" : 1720544313893,
+      "secretData" : "{\"value\":\"6aGwfUOlXzR2HDUhTfcCjvoDlURjMMgNIA3ie7G8tZs=\",\"salt\":\"UDCAVbQVG9UjfNulzmaryg==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Normal User" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "720b7578-b75a-48d8-9171-7794746907e9",
+    "createdTimestamp" : 1720081026106,
+    "username" : "michael_hall",
+    "enabled" : false,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Michael",
+    "lastName" : "Hall",
+    "email" : "michael.h@example.com",
+    "attributes" : {
+      "mobileNo" : [ "6543210987" ],
+      "userType" : [ "PayEE User" ],
+      "roles" : [ "Admin Maker" ],
+      "status" : [ "INACTIVE" ]
+    },
+    "credentials" : [ {
+      "id" : "c7f585cc-be7d-42cc-a479-16ca6bf50405",
+      "type" : "password",
+      "createdDate" : 1720081026204,
+      "secretData" : "{\"value\":\"O2ifkfVtRhGh1VipVu/G/mkpZgX9LXrmoS3/0cexwCI=\",\"salt\":\"Jz78i/v6ucnMCVZdal9w3Q==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "11f29d62-2767-47a0-b160-889012ba0af8",
+    "createdTimestamp" : 1720081031794,
+    "username" : "natalie_young",
+    "enabled" : false,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Natalie",
+    "lastName" : "Young",
+    "email" : "natalie.y@example.com",
+    "attributes" : {
+      "mobileNo" : [ "5432109876" ],
+      "userType" : [ "Govt. Entity User" ],
+      "govtId" : [ "GOV567" ],
+      "roles" : [ "Admin Checker" ],
+      "status" : [ "INACTIVE" ]
+    },
+    "credentials" : [ {
+      "id" : "7382da06-2be7-44f6-86f5-85bbe5e1d0b7",
+      "type" : "password",
+      "createdDate" : 1720081031891,
+      "secretData" : "{\"value\":\"73xtUk4+MrHd/cNSTYCKvajqpy7NV/B+FtyJYKafbgc=\",\"salt\":\"celCUxiC7a+bLE9ZroAh1A==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "7aa3dd9c-51cc-4824-814d-2d0c3db87e92",
+    "createdTimestamp" : 1720081044639,
+    "username" : "oliver_king",
+    "enabled" : false,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Oliver",
+    "lastName" : "King",
+    "email" : "oliver.k@example.com",
+    "attributes" : {
+      "mobileNo" : [ "4321098765" ],
+      "userType" : [ "FSP User" ],
+      "fspId" : [ "FSP012" ],
+      "roles" : [ "Normal User" ],
+      "status" : [ "INACTIVE" ]
+    },
+    "credentials" : [ {
+      "id" : "92ba0eed-4b59-4172-ad31-e0b79cb695ba",
+      "type" : "password",
+      "createdDate" : 1720081044704,
+      "secretData" : "{\"value\":\"axn4ndTg4fiJR6FRMMmpkIB4x+I8AyvJmL98mhSySk0=\",\"salt\":\"ZjmDnsmPJupWJIuMGkCdkQ==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "9f5494ac-6cfe-4afd-966c-a712b0286846",
+    "createdTimestamp" : 1720081050380,
+    "username" : "patricia_wright",
+    "enabled" : false,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Patricia",
+    "lastName" : "Wright",
+    "email" : "patricia.w@example.com",
+    "attributes" : {
+      "mobileNo" : [ "3210987654" ],
+      "userType" : [ "PayEE User" ],
+      "roles" : [ "Admin Maker" ],
+      "status" : [ "INACTIVE" ]
+    },
+    "credentials" : [ {
+      "id" : "952edd3f-f8cd-4daf-9651-3203a87d9740",
+      "type" : "password",
+      "createdDate" : 1720081050443,
+      "secretData" : "{\"value\":\"2qINjZBqkleLgR+FX08VfAJ2RWXfQRJU/FVHzoQZ6v0=\",\"salt\":\"HD866pTFqcIbFzsApGaVPw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "bf4eb124-8f1c-445a-95a1-0032df043233",
+    "createdTimestamp" : 1720081070513,
+    "username" : "quinn_lopez",
+    "enabled" : false,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Quinn",
+    "lastName" : "Lopez",
+    "email" : "quinn.l@example.com",
+    "attributes" : {
+      "mobileNo" : [ "2109876543" ],
+      "userType" : [ "Govt. Entity User" ],
+      "govtId" : [ "GOV789" ],
+      "roles" : [ "Admin Checker" ],
+      "status" : [ "INACTIVE" ]
+    },
+    "credentials" : [ {
+      "id" : "eb241974-efc6-461b-92b9-dc58d057882b",
+      "type" : "password",
+      "createdDate" : 1720081070569,
+      "secretData" : "{\"value\":\"KXtIcuY+9ORi7NblW2Lb9+gtjl82PQjVjSovT/GX/WE=\",\"salt\":\"JzLHavdKCBBG9H7oxoAiRg==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "ef400ea1-6980-452b-a731-33e5c082ac3f",
+    "createdTimestamp" : 1720081080973,
+    "username" : "rachel_hill",
+    "enabled" : false,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Rachel",
+    "lastName" : "Hill",
+    "email" : "rachel.h@example.com",
+    "attributes" : {
+      "mobileNo" : [ "1098765432" ],
+      "userType" : [ "FSP User" ],
+      "fspId" : [ "FSP456" ],
+      "roles" : [ "Normal User" ],
+      "status" : [ "INACTIVE" ]
+    },
+    "credentials" : [ {
+      "id" : "2b267827-148a-4b8a-b3e9-e5da05b3872e",
+      "type" : "password",
+      "createdDate" : 1720081081027,
+      "secretData" : "{\"value\":\"BV5wZuFHqVPpRGpqcukheD/A24jJhBoFf64XQ++5nBo=\",\"salt\":\"J06NsRFKjr/DyQHOWzpraA==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "228185cc-47e7-456b-a295-39843139c0a2",
+    "createdTimestamp" : 1720663490122,
+    "username" : "rohan@123",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Rohan",
+    "lastName" : "Kumar",
+    "email" : "rohan@gmail.com",
+    "attributes" : {
+      "mobileNo" : [ "2141242142" ],
+      "userType" : [ "PayEE User" ],
+      "roles" : [ "Normal User" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "65da4ef6-fb9d-40b5-81ec-1d0b33b6b1d2",
+      "type" : "password",
+      "createdDate" : 1720663490213,
+      "secretData" : "{\"value\":\"5yhZjUbv4ZZg/iB/01QN0G4paWM+khACao8LEpv+SE0=\",\"salt\":\"s+X0RouqQW04zHrJeiMtYw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Normal User" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "51505fbf-7135-41eb-b565-362042700efe",
+    "createdTimestamp" : 1720663911746,
+    "username" : "rohint@123",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Rohint",
+    "lastName" : "Jone",
+    "email" : "rohinth@gmail.com",
+    "attributes" : {
+      "mobileNo" : [ "2141441242" ],
+      "userType" : [ "Govt. Entity User" ],
+      "govtId" : [ "GOVT2" ],
+      "roles" : [ "Admin Maker" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "55c8c60e-5db1-4a36-b31e-c5a20c652297",
+      "type" : "password",
+      "createdDate" : 1720663911805,
+      "secretData" : "{\"value\":\"yA1TlSfB51wRjX/JbXJazTxpN8UjTNXmk1ykJ9pV2lE=\",\"salt\":\"ETJ0S24GJTq61qgdaes+KA==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Admin Maker" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "704ec39f-9b39-46c6-80f3-0fe0f14dbd82",
+    "createdTimestamp" : 1721655906520,
+    "username" : "saas",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "asgas",
+    "lastName" : "sagsa",
+    "email" : "asas@dgsag",
+    "attributes" : {
+      "mobileNo" : [ "2412421444" ],
+      "userType" : [ "PayEE User" ],
+      "roles" : [ "Admin Maker" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "49726b84-b365-4cf0-8eca-506fa6b9e9d3",
+      "type" : "password",
+      "createdDate" : 1721655906580,
+      "secretData" : "{\"value\":\"fkEhyIvE/d+Gl45GHBTHdGR5Uv1IRn+cAuDZ7E66EB0=\",\"salt\":\"fpKPZJ6fRpcG/Lq6llGZzw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Admin Maker" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "d40e5d61-53a2-4790-b864-a4a7d2056672",
+    "createdTimestamp" : 1720504989918,
+    "username" : "safas",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "asdasf",
+    "lastName" : "asfasf",
+    "email" : "sa@ssfa",
+    "attributes" : {
+      "mobileNo" : [ "1212421412" ],
+      "userType" : [ "PayEE User" ],
+      "fspId" : [ "N/A" ],
+      "govtId" : [ "N/A" ],
+      "roles" : [ "Admin Maker" ],
+      "status" : [ "INACTIVE" ]
+    },
+    "credentials" : [ {
+      "id" : "9eddc7f3-2877-4de1-a136-5fd367d893ce",
+      "type" : "password",
+      "createdDate" : 1720504989964,
+      "secretData" : "{\"value\":\"aBFLH7fK8e1znEpFet1xXEUwctSOkV1r+RWJXZsN3eA=\",\"salt\":\"9lJQCrC8qIL1BrgPt+sZXA==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "b108cdae-a56d-4750-820e-5bdc63e82e42",
+    "createdTimestamp" : 1721654790158,
+    "username" : "safasf",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "adsad",
+    "lastName" : "asfasf",
+    "email" : "afsf@sfas",
+    "attributes" : {
+      "mobileNo" : [ "2142141244" ],
+      "userType" : [ "PayEE User" ],
+      "roles" : [ "Admin Maker" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "03e80b7e-f55f-4124-8d07-8e1f77de9f0d",
+      "type" : "password",
+      "createdDate" : 1721654790194,
+      "secretData" : "{\"value\":\"x1YlhJzBvJDM8c9uXDYHC77uXvbfPtc0b7606dzYKaY=\",\"salt\":\"3EaUXMclG97r1ZNey3WhYA==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Admin Maker" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "8425053b-6d52-4ac8-8452-95441c343b44",
+    "createdTimestamp" : 1720545727804,
+    "username" : "saggsgs",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "dvsasg",
+    "lastName" : "asGSAG",
+    "email" : "sgasg@safa",
+    "attributes" : {
+      "mobileNo" : [ "2141245125" ],
+      "userType" : [ "PayEE User" ],
+      "roles" : [ "Normal User", "Admin Maker" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "f2dca225-641a-4b3a-8a77-902dacd901c1",
+      "type" : "password",
+      "createdDate" : 1720545727834,
+      "secretData" : "{\"value\":\"K2eaeFzjNMJBv5AXqQOeBMbkGpT9AGjbEx7Z5DCpKqs=\",\"salt\":\"dFYi75k3nkubYANyYzIdcw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Normal User", "Admin Maker" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "0ce52bcd-30b8-4828-b58f-a71600a5af2c",
+    "createdTimestamp" : 1720081089738,
+    "username" : "samuel_scott",
+    "enabled" : false,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Samuel",
+    "lastName" : "Scott",
+    "email" : "samuel.s@example.com",
+    "attributes" : {
+      "mobileNo" : [ "9876543210" ],
+      "userType" : [ "PayEE User" ],
+      "roles" : [ "Admin Maker" ],
+      "status" : [ "INACTIVE" ]
+    },
+    "credentials" : [ {
+      "id" : "5a301b23-a20e-4422-b015-c1bd32276bbd",
+      "type" : "password",
+      "createdDate" : 1720081089826,
+      "secretData" : "{\"value\":\"v/yp0pZmSduJlHXMzbwvy9Kvvh022DttETS3Lh8K5yg=\",\"salt\":\"EusAcT1/N7ScK7af4wEA8Q==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "57a92d56-2630-4bc6-b897-cfeedd8b8260",
+    "createdTimestamp" : 1720377335232,
+    "username" : "sda",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "dsga",
+    "lastName" : "dsa",
+    "email" : "dsa@sadf",
+    "attributes" : {
+      "mobileNo" : [ "1241241242" ],
+      "userType" : [ "Govt. Entity User" ],
+      "fspId" : [ "GOVT1" ],
+      "govtId" : [ "GOVT1" ],
+      "roles" : [ "Normal User" ],
+      "status" : [ "INACTIVE" ]
+    },
+    "credentials" : [ {
+      "id" : "d29b8186-5be0-47c5-93a3-011c5ea37067",
+      "type" : "password",
+      "createdDate" : 1720377335437,
+      "secretData" : "{\"value\":\"ygrwY/Q6mh2FUBA9bc0cQ/fkbg0k5rtDU/Vo2Xf/VS8=\",\"salt\":\"Naon7RGWlbJMSbkoCY+yIg==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "f51c8f0f-64f3-4810-a866-2a9245f25841",
+    "createdTimestamp" : 1720505666184,
+    "username" : "sdad",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "dgsd",
+    "lastName" : "sdagdsa",
+    "email" : "dssd@adsg",
+    "attributes" : {
+      "mobileNo" : [ "3251235535" ],
+      "userType" : [ "PayEE User" ],
+      "fspId" : [ "N/A" ],
+      "govtId" : [ "N/A" ],
+      "roles" : [ "Admin Maker" ],
+      "status" : [ "INACTIVE" ]
+    },
+    "credentials" : [ {
+      "id" : "82323a44-8f4c-417a-ab43-0da642886962",
+      "type" : "password",
+      "createdDate" : 1720505666227,
+      "secretData" : "{\"value\":\"CIImLhdvTlMKKYAwFnNLQE1pPRASXMISq+XZZISk4Fk=\",\"salt\":\"n/hqHzwtSUbTXRcQ7tynvA==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "2deb5b89-6317-4eff-b620-6e0cb87ad6ef",
+    "createdTimestamp" : 1720515209131,
+    "username" : "sdagds",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "adsgds",
+    "lastName" : "dsgds",
+    "email" : "sdg@dfs",
+    "attributes" : {
+      "mobileNo" : [ "1241242142" ],
+      "userType" : [ "PayEE User" ],
+      "fspId" : [ "N/A" ],
+      "govtId" : [ "N/A" ],
+      "roles" : [ "Normal User" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "3d77324d-9c91-422a-871e-88f51ab4f300",
+      "type" : "password",
+      "createdDate" : 1720515209215,
+      "secretData" : "{\"value\":\"jXAfMAw1tOZVQdvPCw+MzjkoQ229blWjQ6d0+AOyWw0=\",\"salt\":\"8zqxpTLOMw7A1/COw9Io7w==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Normal User" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "4d3ccd9a-be2a-4e6c-9b13-ac618aafb23f",
+    "createdTimestamp" : 1719118753560,
+    "username" : "service-account-opsapp",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Service",
+    "lastName" : "Acccount",
+    "email" : "service@mifos.com",
+    "serviceAccountClientId" : "opsapp",
+    "attributes" : {
+      "welcomeEmailSent" : [ "true" ],
+      "mobileNo" : [ "2355323266" ],
+      "userType" : [ "PayEE User" ],
+      "roles" : [ "Admin Maker" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Admin Maker" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "f2b81a28-c3cd-4a07-a580-00a2fdbebc77",
+    "createdTimestamp" : 1720636266685,
+    "username" : "som@nath",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Som",
+    "lastName" : "Nath",
+    "email" : "som@gmail.com",
+    "attributes" : {
+      "mobileNo" : [ "9846271823" ],
+      "userType" : [ "Govt. Entity User" ],
+      "govtId" : [ "GOVT1" ],
+      "roles" : [ "Normal User" ],
+      "status" : [ "Active" ]
+    },
+    "credentials" : [ {
+      "id" : "ab73b4ed-918b-42b7-ac2b-232a42064c01",
+      "type" : "password",
+      "createdDate" : 1720636266796,
+      "secretData" : "{\"value\":\"K0G3lok+hsfRaxqoHPlgCDw/xGlYBN2xNtJJhAnmqO8=\",\"salt\":\"BnWumnPX5aDNTx8wgs/4jw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Normal User" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "005735b4-968c-482c-b0c3-5113b3d38e61",
+    "createdTimestamp" : 1720505132923,
+    "username" : "ssaa",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "sdasf",
+    "lastName" : "saas",
+    "email" : "asf@afsf",
+    "attributes" : {
+      "mobileNo" : [ "1241244444" ],
+      "userType" : [ "PayEE User" ],
+      "fspId" : [ "N/A" ],
+      "govtId" : [ "N/A" ],
+      "roles" : [ "Admin Maker" ],
+      "status" : [ "INACTIVE" ]
+    },
+    "credentials" : [ {
+      "id" : "75594298-403d-42c2-807c-c81ce93add9f",
+      "type" : "password",
+      "createdDate" : 1720505132969,
+      "secretData" : "{\"value\":\"0qukCO+PhjreV4soQfKfHDikJHEApdPWf5PPJdjiOuM=\",\"salt\":\"SfVPK8daxnB36W+AuW44+Q==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "67f736f3-98a3-4b7c-8a91-56a603fc4620",
+    "createdTimestamp" : 1720081106267,
+    "username" : "tara_green",
+    "enabled" : false,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Tara",
+    "lastName" : "Green",
+    "email" : "tara.g@example.com",
+    "attributes" : {
+      "mobileNo" : [ "8765432109" ],
+      "userType" : [ "Govt. Entity User" ],
+      "govtId" : [ "GOV123" ],
+      "roles" : [ "Admin Checker" ],
+      "status" : [ "INACTIVE" ]
+    },
+    "credentials" : [ {
+      "id" : "f1f49870-bcf9-40e0-9c32-e636309d821e",
+      "type" : "password",
+      "createdDate" : 1720081106349,
+      "secretData" : "{\"value\":\"NzJFchxtB4/cfHUNJOk37BcT2V2+GxdoEyg2TIv4rU4=\",\"salt\":\"Ap74PHlpmY4vB+v2efIwbg==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "7d8df7fb-dab0-4a3c-8dd8-d220543f4fbb",
+    "createdTimestamp" : 1720545704130,
+    "username" : "weueew",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "firstName" : "Madam",
+    "lastName" : "Lonna",
+    "email" : "wueu@gas",
+    "attributes" : {
+      "mobileNo" : [ "5312215525" ],
+      "userType" : [ "PayEE User" ],
+      "roles" : [ "Normal User" ],
+      "govtId" : [ "N" ],
+      "status" : [ "Inactive" ]
+    },
+    "credentials" : [ {
+      "id" : "e1e3898a-23f0-472d-bb3b-2fb0522cd0e3",
+      "type" : "password",
+      "createdDate" : 1720636213124,
+      "secretData" : "{\"value\":\"UXFlGsB24OUQTWNh4D2SmpukXm4oTY9ALXcCdZqUTfA=\",\"salt\":\"4+Zj2gtNc5ge1yM/LQ/1fw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ "UPDATE_PASSWORD" ],
+    "realmRoles" : [ "default-roles-paymenthub" ],
+    "clientRoles" : {
+      "opsapp" : [ "Normal User" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  } ]
+}

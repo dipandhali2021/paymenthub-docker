@@ -1,0 +1,52 @@
+version: '1.0'
+services:
+  keycloak-dev:
+    image: quay.io/keycloak/keycloak:22.0.3
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+      KEYCLOAK_IMPORT: /opt/keycloak/data/import
+      KEYCLOAK_OPTS: -Dkeycloak.import=true -Dkeycloak.import.strategy=OVERWRITE -Dkeycloak.scripts.enabled=true
+    volumes:
+      - ./keycloak-data:/opt/keycloak/data/import
+      - keycloak_data:/opt/keycloak/data
+      - ./keycloak-providers:/opt/keycloak/providers
+
+    ports:
+      - 8080:8080
+    command: start-dev --import-realm
+    container_name: keycloak-dev
+
+  grafana:
+    image: grafana/grafana:9.5.20
+    volumes:
+      - grafana_mem:/var/lib/grafana
+      - ./grafana-config/grafana.ini:/etc/grafana/grafana.ini
+    ports:
+      - 3000:3000
+    
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: admin
+      GF_SECURITY_ADMIN_USER: admin  
+    container_name: grafana
+
+  prometheus:
+    image: prom/prometheus:latest
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - 9090:9090
+    container_name: prometheus-server
+
+  jbpm:
+    image: jboss/jbpm-server-full:7.40.0.Final
+    ports:
+      - 8180:8080
+      - 8101:8001
+    volumes:
+      - ./jbpm-cors.sh:/opt/jboss/jbpm-cors.sh
+    container_name: jbpm-server
+  
+volumes:
+  keycloak_data:
+  grafana_mem:
